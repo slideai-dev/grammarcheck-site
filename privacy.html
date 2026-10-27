@@ -24,14 +24,14 @@
 
     <p>This Privacy Policy explains how the Grammar Check app for iOS ("Grammar Check", "the app", "we") handles information. Grammar Check is published by an individual developer ("the developer"). By using the app you agree to the practices described here.</p>
 
-    <p>In short: Grammar Check does not require an account and does not sell your data. To correct or translate your writing, the text (or photo of text) you submit is sent to our servers and to OpenAI, and the result is returned to the app. The app also includes third-party software that collects limited technical, usage and purchase information, described below.</p>
+    <p>In short: Grammar Check does not require an account and does not sell your data. To correct or translate your writing, the text (or photo of text) you submit is sent to our server and to Anthropic, and the result is returned to the app. The app also includes third-party software that collects limited technical, usage and purchase information, described below.</p>
 
     <h2 id="collected">1. Information we collect</h2>
 
     <h3>Text and photos you submit</h3>
     <ul>
-      <li><strong>Text.</strong> When you check or translate text, it is sent over an encrypted connection to our server (hosted on Amazon Web Services in the EU) and from there to OpenAI, which generates the correction or translation. We do not store the text on our server after returning the result.</li>
-      <li><strong>Photos.</strong> If you choose to check text in a photo taken with the camera or picked from your library, the photo is resized, uploaded to Google Firebase Storage and sent to OpenAI to read and correct the text. Uploaded photos are linked to a random device identifier, not to your name. Do not upload photos containing sensitive personal information.</li>
+      <li><strong>Text.</strong> When you check or translate text, it is sent over an encrypted connection to our server (hosted on Cloudflare) and from there to Anthropic, which generates the correction or translation. We do not store the text on our server after returning the result.</li>
+      <li><strong>Photos.</strong> If you choose to check text in a photo taken with the camera or picked from your library, the photo is resized, uploaded to Google Firebase Storage and sent to Anthropic to read and correct the text. Uploaded photos are linked to a random device identifier, not to your name. Do not upload photos containing sensitive personal information.</li>
     </ul>
     <p>Please avoid submitting sensitive personal information, such as passwords, financial details or health information.</p>
 
@@ -65,8 +65,8 @@
     <h2 id="third-parties">3. Third-party services</h2>
     <p>The following third-party services receive the information described above. Each processes it under its own privacy policy.</p>
     <ul>
-      <li><strong>OpenAI</strong> (generates corrections and translations from the text and photos you submit). <a href="https://openai.com/policies/privacy-policy" rel="noopener">OpenAI Privacy Policy</a>. Under OpenAI's API terms, data sent through the API is not used to train its models by default.</li>
-      <li><strong>Amazon Web Services</strong> (hosts the server that forwards your requests). <a href="https://aws.amazon.com/privacy/" rel="noopener">AWS Privacy Notice</a></li>
+      <li><strong>Anthropic</strong> (Claude; generates corrections and translations from the text and photos you submit). <a href="https://www.anthropic.com/legal/privacy" rel="noopener">Anthropic Privacy Policy</a>. Under Anthropic's commercial terms, data sent through the API is not used to train its models.</li>
+      <li><strong>Cloudflare</strong> (hosts the server that forwards your requests). <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare Privacy Policy</a></li>
       <li><strong>Google Firebase</strong> (Analytics for usage events, Firestore for app state, Storage for uploaded photos, Remote Config for app settings). <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy and Security</a></li>
       <li><strong>RevenueCat</strong> (subscription and purchase state). <a href="https://www.revenuecat.com/privacy/" rel="noopener">RevenueCat Privacy Policy</a></li>
       <li><strong>Apple StoreKit</strong> (in-app purchases and subscriptions). <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a></li>
@@ -74,7 +74,7 @@
     <p>These providers may store data on servers outside your country of residence. We do not share information with any other third parties except where required by law.</p>
 
     <h2 id="retention">4. Data retention</h2>
-    <p>Text you submit is processed to return your result and is not kept on our server afterwards. Uploaded photos are kept in Firebase Storage until you ask us to delete them. OpenAI may retain API inputs for a limited period for abuse monitoring under its own policy. Analytics and purchase data is retained by the third-party services for the periods set out in their policies, after which it is deleted or aggregated. Support emails are kept for as long as needed to resolve your request.</p>
+    <p>Text you submit is processed to return your result and is not kept on our server afterwards. Uploaded photos are kept in Firebase Storage until you ask us to delete them. Anthropic may retain API inputs for a limited period for safety and abuse monitoring under its own policy. Analytics and purchase data is retained by the third-party services for the periods set out in their policies, after which it is deleted or aggregated. Support emails are kept for as long as needed to resolve your request.</p>
 
     <h2 id="children">5. Children</h2>
     <p>Grammar Check is not directed at children under 13 years of age (or the equivalent minimum age in your country), and we do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
